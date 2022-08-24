@@ -18,7 +18,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.UpArrow)){
+            rb.velocity = Vector2.up * jumpForce;
+        }
     }
 
     void FixedUpdate()
