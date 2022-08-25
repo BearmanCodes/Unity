@@ -1007,7 +1007,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1484167455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1046,10 +1046,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f233ef2f85029174db5e8d73aa720239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poopy: {fileID: 0}
   speed: 5
-  jumpForce: 10
   moveInput: 0
-  rb: {fileID: 1484167454}
+  jumpForce: 10
 --- !u!1 &1628695827
 GameObject:
   m_ObjectHideFlags: 0
